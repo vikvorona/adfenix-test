@@ -6,7 +6,7 @@
  - **MUI** - I used React material ui library to avoid excessive customization of components and bring great design.
  - **Eslint/Prettier** - code styling tools. Must have for all modern Javascript/Typescript projects. I used airbnb config as a base, because I like it and it is quite popular.
  - **formik+yup** - the most popular form tools for React.
- - **Cypress** - for tests I prefer to use Cypress both for E2E and Unit tests (instead of jest). I can discuss the pros and cons of Cypress for a long time, but I believe it is a great testing tool and you can check how the tests looks like with it. This project I covered well with Unit tests to check that every part of the project works well and did one simple e2e test to test integration of components.
+ - **Cypress** - for tests I prefer to use Cypress both for E2E and Unit tests (instead of jest). I can discuss the pros and cons of Cypress for a long time, but I believe it is a great testing tool and you can check how the tests look like with it. This project I covered well with Unit tests to check that every part of the project works well and did one simple e2e test to test integration of components.
  - **source-map-explorer** - every good project should have analyzing tool to analyze bundles size. I prefer to use this one or **webpack-bundle-analyzer**.
 
 ## Installation and Setup Instructions
