@@ -41,6 +41,7 @@ function CalculatorForm({ onSubmit }: Props) {
       });
     },
   });
+
   return (
     <form onSubmit={formik.handleSubmit}>
       <Stack spacing={2}>

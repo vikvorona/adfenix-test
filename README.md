@@ -8,6 +8,7 @@
  - **formik+yup** - the most popular form tools for React.
  - **Cypress** - for tests I prefer to use Cypress both for E2E and Unit tests (instead of jest). I can discuss the pros and cons of Cypress for a long time, but I believe it is a great testing tool and you can check how the tests look like with it. This project I covered well with Unit tests to check that every part of the project works well and did one simple e2e test to test integration of components.
  - **source-map-explorer** - every good project should have analyzing tool to analyze bundles size. I prefer to use this one or **webpack-bundle-analyzer**.
+ - **github-actions** - I used github actions to run unit and e2e tests for each push to repository. I consider this solution one of the best for solving the problem of checking the code before merging.
 
 ## Installation and Setup Instructions
 
@@ -30,7 +31,7 @@ To Run Unit Tests in Cypress UI / Console:
 `npm run cypress:unit`  
 `npm run cypress:cicd:unit`  
 
-To Run E2E Tests in Cypress UI / Console:  
+To Run E2E Tests in Cypress UI / Console (You should start application itself before running e2e tests):  
 
 `npm run cypress:e2e`  
 `npm run cypress:cicd:e2e`  
